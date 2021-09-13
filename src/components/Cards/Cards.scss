@@ -1,0 +1,12 @@
+.cards-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.cards__date {
+  font-weight: 200;
+}
+.cards-img {
+  margin: auto;
+}

@@ -1,0 +1,26 @@
+article {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.article__heading {
+  margin-bottom: 10px;
+}
+
+.article__description {
+  margin-bottom: 10px;
+}
+
+.article__author, .article__date {
+  font-weight: 200;
+}
+
+.article-img {
+  margin: auto;
+  margin-right: 0;
+  
+}
+

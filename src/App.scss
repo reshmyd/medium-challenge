@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 10px 0;
+  width: 100vw;
+  max-width: 1300px;
+}
+
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+.grid1 {
+  margin: 40px;
+  text-align: left;
+}
+
+.grid1 h3, .card2 h3, .card3 h3 {
+  margin-bottom: 10px;
+}
+
+.grid1 hr, .card2 hr, .card3 hr {
+  margin-bottom: 30px;
+}
+
+.grid2 {
+  margin: 40px;
+  margin-left: 0;
+}
+
+.card1 {
+  text-align: left;
+}
+
+.card1__heading {
+  font-size: 25px;
+}
+
+.card1__subheading {
+  margin:5px 0;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.card1 .secondary {
+  margin: 10px 0;
+}
+
+.card2 {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.card2 p {
+  margin-bottom: 10px;
+}
+
+

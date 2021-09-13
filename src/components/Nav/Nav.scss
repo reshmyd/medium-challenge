@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100vw;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item > * {
+  margin: 10px ;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 30px;
+  padding-right: 20px;
+  border-right: 1px solid gray;
+}
+
+.section {
+  font-size: 20px;
+}
+
+.nav__item > a {
+  text-decoration: none;
+  color: black;
+}
+
+a.sign-in {
+  color: green;
+  font-size: 15px;
+}
+
+
+
+
+
+
